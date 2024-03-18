@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© 2021</p>
+      <p>© 2024</p>
     </footer>
   );
 }

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-parent{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: red 1px solid;
+}
+
+.flex-child{
+    flex: 1;
+    border: blue 1px solid;
+}
