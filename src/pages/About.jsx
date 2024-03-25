@@ -3,8 +3,8 @@ import aboutme from '../images/AboutMePic.jpg';
 function About() {
 return (
   <div>
-    <h1>About</h1>
-    <div>
+    <h2>About</h2>
+    <div className='about'>
       <img src={aboutme} alt='Sarah Bryant' />
       <h2>Sarah Bryant</h2>
       <p>Full Stack Developer</p>

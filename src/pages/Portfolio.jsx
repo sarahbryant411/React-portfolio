@@ -38,15 +38,17 @@ const projects = [
 function Portfolio () {
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
       <div className='projects'>
         {projects.map((project, index) => (
           <div className='projectTile' key={index}> 
-            <h2>{project.title}</h2>
+            <h3>{project.title}</h3>
             <img src={project.image} alt={project.title} />
             <p>{project.description}</p>
+            <div className='projectLinks'>
             <a href={project.github}>GitHub</a>
             <a href={project.deployed}>Deployed</a>
+            </div>
           </div>
         ))}
       </div>
