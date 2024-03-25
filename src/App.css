@@ -110,3 +110,15 @@ a {
     color: black;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--elusive-dawn);
+    height: 50px;
+    gap: 20px;
+}
+
+header .active {
+    color: var(--floral-scent);
+}
