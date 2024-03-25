@@ -1,28 +1,22 @@
-import resumeImage from '../images/Resume.png'
-
-const resumeData = [
-  {
-    title: 'Resume',
-    description: 'A resume',
-    image: resumeImage,
-  }
-]
+import resumeImage from '../images/Resume.png';
+import resumePDF from '../images/SarahResume.pdf';
 
 function Resume() {
   return (
     <div>
       <h1>Resume</h1>
       <div className='resume'>
-                {resumeData.map((resume, index) => (
-                  <div className='resumeTile' key={index}> 
-                    <h2>{resume.title}</h2>
-                    <img src={resume.image} alt={resume.title} />
-                    <p>{resume.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          );
-        }
+          <div className='resumeTile'> 
+            <h2>Resume</h2>
+            <a href={resumePDF} target="_blank" rel="noopener noreferrer">
+              <img src={resumeImage} alt= 'Resume' />
+            </a>
+            <p>Click the image to download PDF</p>
+          </div>
+       
+      </div>
+    </div>
+  );
+}
 
 export default Resume;

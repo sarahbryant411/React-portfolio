@@ -1,11 +1,18 @@
+import aboutme from '../images/AboutMePic.jpg';
+
 function About() {
-  return (
+return (
+  <div>
+    <h1>About</h1>
     <div>
-      <h1>About</h1>
-      <p>This is the about page</p>
+      <img src={aboutme} alt='Sarah Bryant' />
+      <h2>Sarah Bryant</h2>
+      <p>Full Stack Developer</p>
     </div>
-  );
-}
+  </div>
+)
+    }; // Add closing parenthesis and semicolon here
+
 
 export default About;
 
