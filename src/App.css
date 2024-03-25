@@ -122,3 +122,26 @@ footer {
 header .active {
     color: var(--floral-scent);
 }
+
+p {
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.about img {
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 0;
+    width: 50%;
+   margin: 0 auto;
+    justify-content: center;
+}
