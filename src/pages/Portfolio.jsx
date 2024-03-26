@@ -36,6 +36,22 @@ const projects = [
     github: "https://github.com/sarahbryant411/web-quiz-wizard",
     deployed: "https://sarahbryant411.github.io/web-quiz-wizard/",
   },
+  {
+    title: "Password Generator",
+    description:
+      "Developed a Password Generator tool capable of creating secure passwords based on user-defined criteria, demonstrating proficiency in JavaScript and randomization algorithms.",
+    image: passwordGenerator,
+    github: "https://github.com/sarahbryant411/password-generator",
+    deployed: "https://sarahbryant411.github.io/password-generator/",
+  },
+  {
+    title: "Weather Dashboard",
+    description:
+      "Designed and implemented a Weather Dashboard application that provides real-time weather updates and forecasts for user-specified locations, showcasing API integration skills and user interface design.",
+    image: weatherDashboard,
+    github: "https://github.com/sarahbryant411/weather-dashboard-dandelion",
+    deployed: "https://sarahbryant411.github.io/weather-dashboard-dandelion/",
+  },
 ];
 
 function Portfolio() {
